@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Q1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">   
+
+    <style>
+      .custom-navbar-brand {
+        font-size: 46px;
+        color: #525FFB;
+        font-weight: bold;
+      }
+      
+      .navbar .btn-custom {
+        border-color: #525FFB;
+        color: #525FFB;
+      }
+
+      .gray-text {
+        color: gray;
+      }
+
+      body {   
+        font-family: 'Poppins', sans-serif; 
+        color: #101011;
+      }
+
+      .rounded-corners {
+        border-radius: 50px; 
+      }
+
+      .btn-custom {
+        background-color: #525FFB;
+        border-color: #525FFB;
+        border-radius: 25px;
+        color: #fff;
+        font-weight: bold;
+        padding: 15px 30px;
+      }
+
+      .fs-4 {
+        color: #B1AAAA;
+      }
+
+      .form-control-sm {
+        height: 35px;
+        font-size: 14px;
+      }
+
+      .custom-search-input {
+        width: 100%; 
+      }
+
+      .left-content {
+        padding: 20px;
+      }
+
+      .custom-image {
+        width: 100%;
+        height: auto;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      .card-body h5 {
+        font-weight: bold;
+      }
+
+      .card-body p {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .small-text {
+        font-size: smaller;
+      }
+
+      .btn-outline-success {
+        --bs-btn-color: #525FFB;
+        --bs-btn-border-color: #525FFB;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #525FFB;
+        --bs-btn-hover-border-color: #525FFB;
+        --bs-btn-focus-shadow-rgb: 25,135,84;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #525FFB;
+        --bs-btn-active-border-color: #525FFB;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #525FFB;
+        --bs-btn-disabled-bg: transparent;
+        --bs-btn-disabled-border-color: #525FFB;
+        --bs-gradient: none;
+      }
+
+      .custom-top-margin {
+        margin-top: 100px; /* Adjust the value as needed */
+      }
+
+      .with-margin {
+        margin-bottom: 50px; /* Adjust the value as needed */
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary custom-navbar-brand" style="color: #525FFB;">Taskia</a>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-success rounded-corners" type="submit">Try free</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    
+    
+    
+
+    <!-- Hero Section -->
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 left-content"> 
+          <div class="p-5 mb-4 rounded-3">
+            <div class="container-fluid py-5">
+              <h1 class="display-5 fw-bold left-side">Task management and lists Tool</h1>
+              <p class="gray-text" style="font-weight: 300; font-size: 14px;">We believe that designing products and services in close partnership with our clients is the only way to have a real impact on their business.</p>
+              <form class="d-flex rounded-pill" role="search" style="overflow: hidden; border-radius: 25px; height: 40px;">
+                <input class="form-control form-control-sm me-2 custom-search-input" type="search" placeholder="Name@company.com" aria-label="Search" style="width: 200px; border: none;">
+                <button type="submit" class="btn btn-primary btn-custom">Try it free</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="/Users/gtl/Desktop/Final Project/Q1/Resources/Q1/Images/hero_image.jpg" alt="Your Image" class="img-fluid custom-image">
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    
+
+    <!-- Featured Service -->
+    <section class="container custom-top-margin mb-5">
+      <div class="container text-center">
+        <h1 class="display-5 fw-bold">Featured Service that We Provide</h1>
+      </div>
+
+      <div class="row mt-5">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem; background-color: #525FFB;">
+            <img alt="image 1" src="/Users/gtl/Desktop/Final Project/Q1/Resources/Q1/Images/image 3.png" class="card-img-top mx-auto mt-5" alt="Image 1" style="width: 200px; height: auto;">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="color: white;">Keep tasks in one place</h5>
+              <p class="card-text" style="color: white; font-weight: 300;font-size: 14px;">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card my-card" style="width: 18rem; background-color: #eaf0fe; margin-top: 60px;">
+            <img alt="image 2" src="/Users/gtl/Desktop/Final Project/Q1/Resources/Q1/Images/image 2.png" class="card-img-top" alt="Image 2">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="cKeep tasks in one place">Keep tasks in one place</h5>
+              <p class="card-text" style="font-weight: 300;font-size: 14px;">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card my-card" style="width: 18rem; background-color: #f8e6ac; margin-top: 20px;">
+            <img alt="image 3" src="/Users/gtl/Desktop/Final Project/Q1/Resources/Q1/Images/image 1.png" class="card-img-top" alt="Image 3">
+            <div class="card-body" style="text-align: center; font-size: 14px;">
+              <h5 class="card-title">Keep tasks in one place</h5>
+              <p class="card-text" style="font-weight: 300; font-size: 14px;">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding: 100px 0;" class="trustus">
+      <div class="container">
+        <div class="row align-items-start">
+          <!-- Left Side (Image) -->
+          <div class="col-md-6">
+            <img src="/Users/gtl/Desktop/Final Project/Q1/Resources/Q1/Images/Image 8.jpg" class="img-fluid" alt="Left Image">
+          </div>
+
+          <!-- Right Side (Text and Button) -->
+          <div class="col-md-6 d-flex flex-column justify-content-between" style="text-align: left; height: 100%;">
+            <div>
+              <h1 class="display-5 fw-bold mb-4">Why do you need a task management</h1>
+              <p class="gray-text" style="font-weight: 300; font-size: 14px;">Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines.</p>
+            </div>
+            <button type="submit" class="btn btn-primary btn-custom"" style="width: 200px;" type="submit">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding: 100px 0;">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Side (Text) -->
+          <div class="col-md-6">
+            <h1 class="display-5 fw-bold mb-4">Why do you need a task management</h1>
+            <p class="gray-text" style="font-weight: 300; font-size: 14px;">
+              Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines.
+            </p>
+            
+            <!-- Images next to the paragraph -->
+            <div class="row mt-3">
+              <div class="col-md-6">
+                <img alt="Appstore" src="/Users/gtl/Desktop/Final Project/Q1/Resources/Q1/Images/Image 6.jpg" class="img-fluid" alt="Bottom Image 1">
+              </div>
+              <div class="col-md-6">
+                <img alt="Play store" src="/Users/gtl/Desktop/Final Project/Q1/Resources/Q1/Images/Image 9.jpg" class="img-fluid" alt="Bottom Image 2">
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side (Image) -->
+          <div class="col-md-6">
+            <img alt="Task manage" src="/Users/gtl/Desktop/Final Project/Q1/Resources/Q1/Images/Image 7.jpg" class="img-fluid" alt="Right Image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container custom-top-margin mb-5">
+      <div class="container text-center">
+        <h1 class="display-5 fw-bold">Trust us and feel free to try our service</h1>
+      </div>
+      <div class="container-trustus">
+          <div class="content-trustus">
+              <!-- First set of images and text -->
+              <div style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0">
+                  <div style="box-sizing:border-box;display:block;max-width:100%">
+                      <img style="max-width:100%;display:block;margin:0;border:none;padding:0" alt="" aria-hidden="true" role="presentation" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4=">
+                  </div>
+                  <img alt="Trust Us" src="/_next/image?url=%2Ftrustus1.png&amp;w=640&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" srcset="/_next/image?url=%2Ftrustus1.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Ftrustus1.png&amp;w=640&amp;q=75 2x">
+              </div>
+              <h3>100 000</h3>
+  
+              <!-- Second set of images and text -->
+              <div style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0">
+                  <div style="box-sizing:border-box;display:block;max-width:100%">
+                      <img style="max-width:100%;display:block;margin:0;border:none;padding:0" alt="" aria-hidden="true" role="presentation" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4=">
+                  </div>
+                  <img alt="Trust Us" src="/Users/gtl/Desktop/Final Project/Q1/Resources/Q1/Images/Image 4.jpg&amp;w=640&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" srcset="/_next/image?url=%2Ftrustus2.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Ftrustus2.png&amp;w=640&amp;q=75 2x">
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+    <footer>
+      <div class="container">
+        <div class="header-footer text-center">
+          <h3 style="font-weight: bold; font-size: 36px;">Get better work done</h3>
+          <h5>See why millions of people across 195 countries use Dash.</h5>
+        </div>
+        <form class="text-center mt-4">
+          <div class="form-group d-flex justify-content-center">
+            <input type="email" class="form-control mr-7" placeholder="Name@company.com" style="width: 300px;"> 
+            <button type="submit" class="btn btn-primary btn-custom">Try it free</button>
+          </div>
+        </form>
+      </div>
+    </footer>
+    
+    
+    
+    
+    
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
