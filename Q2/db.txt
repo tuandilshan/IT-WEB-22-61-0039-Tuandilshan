@@ -1,0 +1,27 @@
+1) SELECT * FROM students
+
+student_id,name,city,course_id
+1,Kasun gamage,Kandy,2
+2,Daniel Sam,Jaffna,3
+3,Hansi Silva,Colombo,1
+4,Ranidu Herath,Matara,3
+5,Praneeth Wijesinghe,Kandy,4
+6,Nuwani Herath,Rathnapura,1
+
+2)SELECT student_id,name,city FROM students WHERE city = 'kandy'
+student_id,name,city
+1,Kasun gamage,Kandy
+5,Praneeth Wijesinghe,Kandy
+
+3) UPDATE students SET city = 'Galle' WHERE id = 4
+student_id,name,city
+4,Ranidu Herath,Galle,3
+
+4) SELECT * from students inner join courses on students.course_id = cousrses.id 
+
+student_id,name,city,course_id,course_id,name,lecturer_name
+1,Kasun gamage,Kandy,2,2,Graphic Design,J.S.V Perera
+2,Daniel Sam,Jaffna,3,3,Mobile App Development,K.K.S Dias
+3,Hansi Silva,Colombo,1,1,Web Development,M.M.Herath
+5,Praneeth Wijesinghe,Kandy,4,4,Java,U.H.S.Perera
+6,Nuwani Herath,Rathnapura,1,1,Web Development,M.M.Herath
